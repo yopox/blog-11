@@ -1,17 +1,18 @@
-<div class="py-12 px-16">
-  <img class="promo" src="">
-  <div class="content">
-    <div class="title">{{ p.name }}</div>
-    <div class="chips">
+<div class="group/project py-8 px-24 flex flex-row items-center">
+  <img class="w-[270px] h-[180px] object-cover opacity-75 group-hover/project:opacity-100 transition-opacity shrink-0 rounded-[8px] crisp" src="">
+  <div class="flex flex-col px-8">
+    <div class="font-bold text-5xl">{{ p.name }}</div>
+    <div class="flex flex-row flex-wrap mt-2 mb-4">
       {% for tag in p.tags %}
-        <div class="chip">{{ tag }}</div>
+        <div class="px-3 py-1 mt-2 mr-2 rounded-3xl bg-[color-mix(in_srgb,var(--bg)_20%,transparent)]">{{ tag }}</div>
       {% endfor %}
     </div>
-    <div class="description">{{ p.description }}</div>
-    <div class="links">
+    <div class="box-border pb-4">{{ p.description }}</div>
+    <div class="flex flex-row">
       {% for link in p.links %}
-        <a href="{{ link.url }}">
-          &nbsp;{{ link.title }}
+        <a href="{{ link.url }}" class="group/link flex flex-row items-center mr-4">
+          <svg class="size-4" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"><path fill="#18161C" d="M3 1h1v1H3zm1 0h1v1H4zm1 0h1v1H5zm1 0h1v1H6zM5 2h1v1H5zm1 0h1v1H6zM4 3h1v1H4zm2 0h1v1H6zM3 4h1v1H3zm3 0h1v1H6zM2 5h1v1H2zM1 6h1v1H1z"/></svg>
+          &nbsp;<span class="group-hover/link:underline">{{ link.title }}</span>
         </a>
       {% endfor %}
     </div>

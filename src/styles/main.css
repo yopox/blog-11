@@ -11,6 +11,10 @@
     image-rendering: pixelated;
 }
 
+.crisp {
+    image-rendering: crisp-edges;
+}
+
 @supports (font-variation-settings: normal) {
     @font-face {
         font-family: JetBrains Sans;
