@@ -7,7 +7,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/img')
 
   eleventyConfig.addFilter("imgFilter", name => {
-    return "img/" + name;
+    return "img/" + name
+      .split('')
+      .filter(c => c.match(/[a-zA-Z0-9\s]/))
+      .join('')
+      .toLowerCase()
+      .replaceAll(' ', '-')
+      + ".png";
   });
 
   return {
