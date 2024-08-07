@@ -1,13 +1,13 @@
-<div class="group/project py-8 px-24 flex flex-row items-center">
+<div class="text-sm md:text-base lg:text-lg group/project py-6 md:py-8 px-4 md:px-16 lg:px-24 flex flex-col md:flex-row items-center">
   <img class="w-[270px] h-[180px] object-cover opacity-75 group-hover/project:opacity-100 transition ease-in duration-200 shrink-0 rounded-[8px] crisp" src="{{ project.name | imgFilter }}">
-  <div class="flex flex-col px-8">
-    <div class="font-bold text-5xl">{{ project.name }}</div>
-    <div class="flex flex-row flex-wrap mt-2 mb-4">
+  <div class="flex flex-col px-8 pt-6 md:pt-0">
+    <div class="font-bold text-3xl md:text-4xl lg:text-5xl">{{ project.name }}</div>
+    <div class="flex flex-row flex-wrap my-2">
       {% for tag in project.tags %}
-        <div class="px-3 py-1 mt-2 mr-2 rounded-3xl bg-[color-mix(in_srgb,var(--bg)_20%,transparent)]">{{ tag }}</div>
+        <div class="text-sm lg:text-base px-3 py-1 mt-1 mr-2 rounded-3xl bg-[color-mix(in_srgb,var(--bg)_10%,transparent)]">{{ tag }}</div>
       {% endfor %}
     </div>
-    <div class="box-border pb-4">{{ project.description }}</div>
+    <div class="box-border pb-2">{{ project.description }}</div>
     <div class="flex flex-row">
       {% for link in project.links %}
         <a href="{{ link.url }}" class="group/link flex flex-row items-center mr-4">

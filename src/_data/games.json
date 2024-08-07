@@ -8,7 +8,7 @@
         "description": "The Forgotten Jade is a hack and slash roguelike made for the 7DRL game jam. Theme: Roguelike.",
         "links": [
           { "title": "play", "url": "https://yopox.itch.io/the-forgotten-jade" },
-          { "title": "submission page", "url": "https://itch.io/jam/7drl-challenge-2024/rate/2574647" },
+          { "title": "project page", "url": "https://itch.io/jam/7drl-challenge-2024/rate/2574647" },
           { "title": "github", "url": "https://github.com/yopox/7drl" }
         ]
       }
@@ -23,7 +23,7 @@
         "description": "Toteninsel is a platform/action game made for the GitHub Game Off game jam. Theme: Scale.",
         "links": [
           { "title": "play", "url": "https://yopox.itch.io/toteninsel" },
-          { "title": "submission page", "url": "https://itch.io/jam/game-off-2023/rate/2397161" },
+          { "title": "project page", "url": "https://itch.io/jam/game-off-2023/rate/2397161" },
           { "title": "github", "url": "https://github.com/yopox/game-off-2023" }
         ]
       },
@@ -33,7 +33,7 @@
         "description": "space station No. 34 is a shoot'em up made for the GBJAM 11 game jam. Theme: Space.",
         "links": [
           { "title": "play", "url": "https://yopox.itch.io/space-station-no-34" },
-          { "title": "submission page", "url": "https://itch.io/jam/gbjam-11/rate/2277633" },
+          { "title": "project page", "url": "https://itch.io/jam/gbjam-11/rate/2277633" },
           { "title": "github", "url": "https://www.github.com/yopox/GBJAM11" }
         ]
       },
@@ -43,7 +43,7 @@
         "description": "Sabotage, Inc. is a tower defense made for the LD53 game jam. Theme: Delivery.",
         "links": [
           { "title": "play", "url": "https://yopox.itch.io/sabotage-inc" },
-          { "title": "submission page", "url": "https://ldjam.com/events/ludum-dare/53/sabotage-inc" },
+          { "title": "project page", "url": "https://ldjam.com/events/ludum-dare/53/sabotage-inc" },
           { "title": "github", "url": "https://www.github.com/yopox/LD53" }
         ]
       },
@@ -53,7 +53,7 @@
         "description": "mad veggies is a puzzle game made for the LD52 game jam. Theme: Harvest.",
         "links": [
           { "title": "play", "url": "https://yopox.itch.io/mad-veggies" },
-          { "title": "submission page", "url": "https://ldjam.com/events/ludum-dare/52/mad-veggies" },
+          { "title": "project page", "url": "https://ldjam.com/events/ludum-dare/52/mad-veggies" },
           { "title": "github", "url": "https://www.github.com/yopox/LD52" }
         ]
       }
@@ -68,7 +68,7 @@
         "description": "miam is a burger game made for the LD51 game jam. Theme: Every 10 seconds.",
         "links": [
           { "title": "play", "url": "https://yopox.itch.io/miam" },
-          { "title": "submission page", "url": "https://ldjam.com/events/ludum-dare/51/miam" },
+          { "title": "project page", "url": "https://ldjam.com/events/ludum-dare/51/miam" },
           { "title": "github", "url": "https://www.github.com/yopox/LD51" }
         ]
       },
@@ -109,7 +109,7 @@
         "description": "Unbalanced Brawl is an autochess made for the LD49 game jam. Theme: Unstable.",
         "links": [
           { "title": "play", "url": "https://yopox.itch.io/unbalanced-brawl"},
-          { "title": "submission page", "url": "https://ldjam.com/events/ludum-dare/49/unbalanced-brawl"},
+          { "title": "project page", "url": "https://ldjam.com/events/ludum-dare/49/unbalanced-brawl"},
           { "title": "github", "url": "https://www.github.com/yopox/LD49"}
         ]
       }
@@ -132,7 +132,7 @@
         "tags": ["game jam", "ludum dare", "libGDX", "kotlin"],
         "description": "Infinite Racer is a racing game made for the LD47 game jam. Theme: Stuck in a loop.",
         "links": [
-          { "title": "submission page", "url": "https://ldjam.com/events/ludum-dare/47/infinite-racer"},
+          { "title": "project page", "url": "https://ldjam.com/events/ludum-dare/47/infinite-racer"},
           { "title": "github", "url": "https://www.github.com/yopox/LD47"}
         ]
       }
@@ -146,7 +146,7 @@
         "tags": ["game jam", "ludum dare", "phaser", "javascript"],
         "description": "Slave Odyssey is a shoot 'em up made for the LD44 game jam. Theme: Your life is currency.",
         "links": [
-          { "title": "submission page", "url": "https://ldjam.com/events/ludum-dare/44/slave-odyssey"},
+          { "title": "project page", "url": "https://ldjam.com/events/ludum-dare/44/slave-odyssey"},
           { "title": "github", "url": "https://www.github.com/yopox/LD44"}
         ]
       }
@@ -160,7 +160,7 @@
         "tags": ["game jam", "ludum dare", "phaser", "javascript"],
         "description": "Sacriflag is a puzzle game made for the LD43 game jam. Theme: Sacrifices must be made.",
         "links": [
-          { "title": "submission page", "url": "https://ldjam.com/events/ludum-dare/43/sacriflag"},
+          { "title": "project page", "url": "https://ldjam.com/events/ludum-dare/43/sacriflag"},
           { "title": "github", "url": "https://www.github.com/yopox/LD43"}
         ]
       },
@@ -183,7 +183,7 @@
         "tags": ["game jam", "ludum dare", "phaser", "javascript"],
         "description": "uRUNium is a platformer game made for the LD39 game jam. Theme: Running out of Power.",
         "links": [
-          { "title": "submission page", "url": "https://ldjam.com/events/ludum-dare/39/urunium"},
+          { "title": "project page", "url": "https://ldjam.com/events/ludum-dare/39/urunium"},
           { "title": "github", "url": "https://www.github.com/yopox/LD39"}
         ]
       }

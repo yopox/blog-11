@@ -7,9 +7,9 @@
   <link rel="stylesheet" type="text/css" href="/assets/main.css"/>
 </head>
 
-<body class="bg-[--bg] text-[--accent]">
+<body class="bg-[--bg] text-[--accent] overflow-x-hidden">
 
-<main class="px-48 py-8 flex flex-col items-center">
+<main class="lg:px-24 xl:px-32 py-4 md:py-8 flex flex-col items-center">
   {% include "../components/header.njk" %}
   {{ content | safe }}
 </main>
