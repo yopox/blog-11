@@ -1,7 +1,7 @@
 import '../styles/main.css';
 
 const accent1 = [243, 217, 122];
-const accent2 = [255, 245, 200];
+const accent2 = [194, 194, 194];
 
 function runOnScroll() {
   let offset = window.scrollY / (document.body.offsetHeight - window.innerHeight);
