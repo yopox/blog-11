@@ -4,7 +4,7 @@
 <head>
   <title>{{ title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="/assets/main.css"/>
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/main.css' | url }}"/>
 </head>
 
 <body class="bg-[--bg] text-[--accent] overflow-x-hidden">
@@ -14,7 +14,7 @@
   {{ content | safe }}
 </main>
 
-<script src="/assets/main.js"></script>
+<script src="{{ '/assets/main.js' | url }}"></script>
 </body>
 
 </html>
