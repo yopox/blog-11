@@ -702,12 +702,6 @@ video {
 .text-\[--bg\] {
   color: var(--bg);
 }
-.opacity-50 {
-  opacity: 0.5;
-}
-.opacity-75 {
-  opacity: 0.75;
-}
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -749,10 +743,6 @@ body {
 
 .group\/link:hover .group-hover\/link\:underline {
   text-decoration-line: underline;
-}
-
-.group\/project:hover .group-hover\/project\:opacity-100 {
-  opacity: 1;
 }
 
 .group:hover .group-hover\:opacity-100 {
@@ -852,6 +842,18 @@ body {
 
   .md\:tracking-\[-6px\] {
     letter-spacing: -6px;
+  }
+
+  .md\:opacity-50 {
+    opacity: 0.5;
+  }
+
+  .md\:opacity-75 {
+    opacity: 0.75;
+  }
+
+  .group\/project:hover .md\:group-hover\/project\:opacity-100 {
+    opacity: 1;
   }
 }
 
