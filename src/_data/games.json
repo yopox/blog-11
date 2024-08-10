@@ -19,7 +19,7 @@
     "projects": [
       {
         "name": "Toteninsel",
-        "tags": ["game jam", "github game off", "rust", "bevy"],
+        "tags": ["game jam", "game off", "rust", "bevy"],
         "description": "Toteninsel is a platform/action game made for the GitHub Game Off game jam. Theme: Scale.",
         "links": [
           { "title": "play", "url": "https://yopox.itch.io/toteninsel" },

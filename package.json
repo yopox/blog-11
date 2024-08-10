@@ -1,7 +1,7 @@
 {
-  "name": "eleventy",
+  "name": "yopox",
   "version": "1.0.0",
-  "description": "",
+  "description": "a portfolio for my games and other projects I took part in",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf _site",
