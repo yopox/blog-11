@@ -848,11 +848,11 @@ body {
     opacity: 0.5;
   }
 
-  .md\:opacity-75 {
-    opacity: 0.75;
+  .md\:opacity-65 {
+    opacity: 0.65;
   }
 
-  .group\/project:hover .md\:group-hover\/project\:opacity-100 {
+  .group:hover .md\:group-hover\:opacity-100 {
     opacity: 1;
   }
 }
