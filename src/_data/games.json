@@ -3,6 +3,16 @@
     "year": "2024",
     "projects": [
       {
+        "name": "Autoween",
+        "tags": ["game jam", "gbjam", "godot"],
+        "description": "Autoween is an autochess made for the GBJAM 12 game jam. Theme: Spooky.",
+        "links": [
+          { "title": "play", "url": "https://yopox.itch.io/autoween" },
+          { "title": "project page", "url": "https://itch.io/jam/gbjam-12/rate/2991137" },
+          { "title": "github", "url": "https://github.com/yopox/gbjam12" }
+        ]
+      },
+      {
         "name": "The Forgotten Jade",
         "tags": ["game jam", "7drl", "godot"],
         "description": "The Forgotten Jade is a hack and slash roguelike made for the 7DRL game jam. Theme: Roguelike.",
