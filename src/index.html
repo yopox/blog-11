@@ -1,0 +1,22 @@
+---
+title: yopox
+layout: layouts/base.html
+---
+
+{% for year in games %}
+<div
+    class="group text-[--bg] relative w-full my-12 md:my-24 md:py-12 py-8 overflow-visible"
+>
+    {% for p in year.projects %} {% assign project = p %} {% include
+    "components/project.html" %} {% endfor %}
+
+    <div
+        class="absolute top-0 size-full bg-[--accent] md:opacity-50 group-hover:opacity-100 -z-10 transition ease-in duration-200"
+    ></div>
+    <div
+        class="text-[5rem] md:text-[6rem] lg:text-[8rem] text-[--accent] font-extrabold absolute rotate-2 z-[-1] top-[-4rem] md:top-[-4.75rem] lg:top-[-6.5rem] right-12 md:right-14 lg:right-16"
+    >
+        {{ year.year }}
+    </div>
+</div>
+{% endfor %}
